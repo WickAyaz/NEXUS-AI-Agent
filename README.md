@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ⚡ Nexus AI — Intelligent Coding, Mathematics & Problem Solving Assistant
 
 <p align="center">
@@ -120,3 +121,7 @@ Follow the interactive prompts to get a live URL in seconds.
 ## 📄 License
 
 This project is open-source under the [MIT License](LICENSE).
+=======
+# NEXUS-AI-Agent
+⚡ Nexus AI — A sleek, high-performance AI agent built with React 19, Tailwind CSS v4, and Google Gemini. Features interactive code sandboxing, LaTeX math rendering, bi-directional voice chat, and Dark Mode.
+>>>>>>> bdbd4ea6a617932b67a5f0b4cb02024f5c947cbd
