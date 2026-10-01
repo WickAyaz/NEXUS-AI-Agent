@@ -1,4 +1,4 @@
-﻿// Speech utilities for Text-to-Speech (TTS) and Speech-to-Text (STT)
+// Speech utilities for Text-to-Speech (TTS) and Speech-to-Text (STT)
 
 export function isSpeechSynthesisSupported() {
   return typeof window !== 'undefined' && 'speechSynthesis' in window;
@@ -123,8 +123,8 @@ export function createSpeechRecognizer({ onResult, onStart, onEnd, onError, lang
   const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
   const recognition = new SpeechRecognition();
 
-  recognition.continuous = true;
-  recognition.interimResults = true;
+  recognition.continuous = false;      // false = more reliable across all browsers
+  recognition.interimResults = true;   // show live transcript while speaking
   recognition.lang = lang;
   recognition.maxAlternatives = 1;
 

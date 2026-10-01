@@ -19,7 +19,7 @@ const STORAGE_KEYS = {
 
 const DEFAULT_SETTINGS = {
   provider: 'gemini',
-  geminiApiKey: 'AQ.Ab8RN6KEizuIxK1bRBg7xHS7HstzXTPJuh9DFOYdngqmq9dmng',
+  geminiApiKey: '',   // User apni API key Settings mein daale
   geminiModel: 'gemini-3.5-flash-lite',
   openaiApiKey: '',
   openaiModel: 'gpt-4o-mini',
